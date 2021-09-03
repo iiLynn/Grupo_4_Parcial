@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grupo4_semana4_formulario", "Grupo4_semana4_formulario.csproj", "{4A9B8109-BDD7-48D9-81E6-C22CFC9B8DD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grupo4_parcial", "Grupo4_parcial.csproj", "{4A9B8109-BDD7-48D9-81E6-C22CFC9B8DD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
