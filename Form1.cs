@@ -16,5 +16,10 @@ namespace Grupo4_semana4_formulario
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
