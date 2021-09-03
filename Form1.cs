@@ -37,5 +37,10 @@ namespace Grupo4_semana4_formulario
             centro AcercaDe = new centro();
             _ = AcercaDe.ShowDialog();
         }
+
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

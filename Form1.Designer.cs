@@ -34,6 +34,7 @@ namespace Grupo4_semana4_formulario
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.qToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.superMercadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.integrantesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,7 +42,6 @@ namespace Grupo4_semana4_formulario
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.superMercadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +53,6 @@ namespace Grupo4_semana4_formulario
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.qToolStripMenuItem,
@@ -63,7 +62,8 @@ namespace Grupo4_semana4_formulario
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1234, 38);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(673, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -72,32 +72,39 @@ namespace Grupo4_semana4_formulario
             this.qToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.superMercadoToolStripMenuItem});
             this.qToolStripMenuItem.Name = "qToolStripMenuItem";
-            this.qToolStripMenuItem.Size = new System.Drawing.Size(139, 34);
+            this.qToolStripMenuItem.Size = new System.Drawing.Size(82, 22);
             this.qToolStripMenuItem.Text = "Formularios";
+            // 
+            // superMercadoToolStripMenuItem
+            // 
+            this.superMercadoToolStripMenuItem.Name = "superMercadoToolStripMenuItem";
+            this.superMercadoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.superMercadoToolStripMenuItem.Text = "Super Mercado ";
             // 
             // integrantesToolStripMenuItem
             // 
             this.integrantesToolStripMenuItem.Name = "integrantesToolStripMenuItem";
-            this.integrantesToolStripMenuItem.Size = new System.Drawing.Size(142, 34);
+            this.integrantesToolStripMenuItem.Size = new System.Drawing.Size(81, 22);
             this.integrantesToolStripMenuItem.Text = "Integrantes ";
             // 
             // ayudaToolStripMenuItem
             // 
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(90, 34);
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 22);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
+            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
             // 
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(144, 34);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(83, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de ...";
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(76, 34);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(44, 22);
             this.salirToolStripMenuItem.Text = "Salir ";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -110,37 +117,34 @@ namespace Grupo4_semana4_formulario
             // button1
             // 
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(34, 68);
+            this.button1.Location = new System.Drawing.Point(19, 37);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 98);
+            this.button1.Size = new System.Drawing.Size(67, 53);
             this.button1.TabIndex = 3;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(221, 68);
+            this.button2.Location = new System.Drawing.Point(121, 37);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(111, 98);
+            this.button2.Size = new System.Drawing.Size(61, 53);
             this.button2.TabIndex = 4;
             this.button2.Text = "Super Mercado";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // superMercadoToolStripMenuItem
-            // 
-            this.superMercadoToolStripMenuItem.Name = "superMercadoToolStripMenuItem";
-            this.superMercadoToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
-            this.superMercadoToolStripMenuItem.Text = "Super Mercado ";
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1234, 647);
+            this.ClientSize = new System.Drawing.Size(673, 350);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "2";
             this.menuStrip1.ResumeLayout(false);
