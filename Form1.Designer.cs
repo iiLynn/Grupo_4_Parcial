@@ -78,7 +78,7 @@ namespace Grupo4_semana4_formulario
             // superMercadoToolStripMenuItem
             // 
             this.superMercadoToolStripMenuItem.Name = "superMercadoToolStripMenuItem";
-            this.superMercadoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.superMercadoToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.superMercadoToolStripMenuItem.Text = "Super Mercado ";
             // 
             // integrantesToolStripMenuItem
@@ -140,7 +140,7 @@ namespace Grupo4_semana4_formulario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(673, 350);
+            this.ClientSize = new System.Drawing.Size(1234, 647);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
