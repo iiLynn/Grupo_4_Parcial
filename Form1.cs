@@ -21,5 +21,21 @@ namespace Grupo4_semana4_formulario
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            centro AcercaDe = new centro();
+            _ = AcercaDe.ShowDialog();
+        }
     }
 }
