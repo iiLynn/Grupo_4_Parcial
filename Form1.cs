@@ -54,7 +54,8 @@ namespace Grupo4_semana4_formulario
 
         private void laptosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Lapto AcercaDe = new Lapto();
+            _ = AcercaDe.ShowDialog();
         }
     }
 }
