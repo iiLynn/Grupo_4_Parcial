@@ -42,5 +42,12 @@ namespace Grupo4_semana4_formulario
         {
 
         }
+
+        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutBox1 newMDIChild = new AboutBox1();
+            newMDIChild.MdiParent = this;
+            newMDIChild.Show();
+        }
     }
 }
