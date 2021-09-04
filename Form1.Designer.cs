@@ -40,6 +40,7 @@ namespace Grupo4_semana4_formulario
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -119,11 +120,26 @@ namespace Grupo4_semana4_formulario
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(12, 42);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Ravie", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(12, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1346, 52);
+            this.label1.Size = new System.Drawing.Size(369, 43);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Venta de Computadoras LaptoyCompudoras de Escritorio";
+            this.label1.Text = "ISRI GROUP 4";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Ravie", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label2.Location = new System.Drawing.Point(60, 86);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(277, 19);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Los Expertos en computadoras";
             // 
             // Form1
             // 
@@ -131,6 +147,7 @@ namespace Grupo4_semana4_formulario
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Grupo4_semana4_formulario.Properties.Resources.MicrosoftTeams_image__1_;
             this.ClientSize = new System.Drawing.Size(1370, 597);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -158,6 +175,7 @@ namespace Grupo4_semana4_formulario
         private System.Windows.Forms.ToolStripMenuItem laptosToolStripMenuItem;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStripMenuItem pCToolStripMenuItem;
+        private System.Windows.Forms.Label label2;
     }
 }
 
