@@ -40,6 +40,8 @@ namespace Grupo4_semana4_formulario
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -66,43 +68,43 @@ namespace Grupo4_semana4_formulario
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(284, 281);
+            this.label3.Location = new System.Drawing.Point(252, 276);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 25);
+            this.label3.Size = new System.Drawing.Size(158, 25);
             this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.label3.Text = "Laptop Lenovo 5";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(662, 429);
+            this.label4.Location = new System.Drawing.Point(728, 391);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 25);
+            this.label4.Size = new System.Drawing.Size(56, 25);
             this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.label4.Text = "$300";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(283, 516);
+            this.label5.Location = new System.Drawing.Point(270, 516);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 25);
+            this.label5.Size = new System.Drawing.Size(125, 25);
             this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.label5.Text = "macbook pro";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(662, 575);
+            this.label6.Location = new System.Drawing.Point(717, 587);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 25);
+            this.label6.Size = new System.Drawing.Size(67, 25);
             this.label6.TabIndex = 5;
-            this.label6.Text = "label6";
+            this.label6.Text = "$1500";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(201, 100);
+            this.pictureBox1.Location = new System.Drawing.Point(212, 86);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(250, 156);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -112,7 +114,7 @@ namespace Grupo4_semana4_formulario
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(224, 319);
+            this.pictureBox2.Location = new System.Drawing.Point(241, 319);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(186, 178);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -122,7 +124,7 @@ namespace Grupo4_semana4_formulario
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(191, 544);
+            this.pictureBox3.Location = new System.Drawing.Point(190, 544);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(272, 171);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -135,8 +137,26 @@ namespace Grupo4_semana4_formulario
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 54);
             this.button1.TabIndex = 9;
-            this.button1.Text = "button1";
+            this.button1.Text = "Comprar ";
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(805, 376);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(121, 54);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "Comprar ";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(801, 587);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(121, 54);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "Comprar ";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // Lapto
             // 
@@ -144,6 +164,8 @@ namespace Grupo4_semana4_formulario
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1029, 727);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -178,5 +200,7 @@ namespace Grupo4_semana4_formulario
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
