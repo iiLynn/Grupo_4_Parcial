@@ -40,7 +40,7 @@ namespace Grupo4_semana4_formulario
 
         private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
