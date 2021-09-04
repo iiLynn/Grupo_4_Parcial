@@ -27,13 +27,13 @@ namespace Grupo4_semana4_formulario
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            StreamReader Archivo = new StreamReader("c:\\User\\Luis2\\OneDrive\\Documentos\\CICLO 2\\Parcial_Grupo4\\ayuda.txt");
+            StreamReader Archivo = new StreamReader("C:\\Users\\Luis2\\OneDrive\\Documentos\\CICLO 2\\Parcial_Grupo4\\ayuda.txt");
 
             string linea = "";
 
             ArrayList contenido = new ArrayList();
 
-            while (linea != null) ;
+            while (linea != null);
             {
                 linea = Archivo.ReadLine();
                 if (linea != null)
