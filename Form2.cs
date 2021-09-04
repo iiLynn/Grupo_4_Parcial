@@ -33,7 +33,7 @@ namespace Grupo4_semana4_formulario
 
             ArrayList contenido = new ArrayList();
 
-            while (linea != null) ;
+            while (linea != null);
             {
                 linea = Archivo.ReadLine();
                 if (linea != null)
