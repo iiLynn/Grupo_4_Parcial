@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Grupo4_semana4_formulario.Resources;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -55,7 +56,9 @@ namespace Grupo4_semana4_formulario
 
         private void pCToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Computadora newMDIChild = new Computadora();
+            newMDIChild.MdiParent = this;
+            newMDIChild.Show();
         }
     }
 }

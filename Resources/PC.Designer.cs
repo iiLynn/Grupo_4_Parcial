@@ -35,8 +35,7 @@ namespace Grupo4_semana4_formulario.Resources
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.IsMdiContainer = true;
+            this.ClientSize = new System.Drawing.Size(597, 450);
             this.Name = "Computadora";
             this.Text = "PC";
             this.ResumeLayout(false);
