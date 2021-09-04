@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Grupo4_semana4_formulario
 {
-    public partial class centro : Form
+    public partial class Lapto : Form
     {
-        public centro()
+        public Lapto()
         {
             InitializeComponent();
         }

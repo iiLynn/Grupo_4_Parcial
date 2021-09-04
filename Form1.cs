@@ -34,7 +34,7 @@ namespace Grupo4_semana4_formulario
 
         private void button2_Click(object sender, EventArgs e)
         {
-            centro AcercaDe = new centro();
+            Lapto AcercaDe = new Lapto();
             _ = AcercaDe.ShowDialog();
         }
 
