@@ -32,12 +32,7 @@ namespace Grupo4_semana4_formulario
             Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Lapto AcercaDe = new Lapto();
-            _ = AcercaDe.ShowDialog();
-        }
-
+       
         private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form2 newMDIChild = new Form2();
@@ -56,6 +51,11 @@ namespace Grupo4_semana4_formulario
         {
             Lapto AcercaDe = new Lapto();
             _ = AcercaDe.ShowDialog();
+        }
+
+        private void pCToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

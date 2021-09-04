@@ -80,6 +80,7 @@ namespace Grupo4_semana4_formulario
             this.pCToolStripMenuItem.Name = "pCToolStripMenuItem";
             this.pCToolStripMenuItem.Size = new System.Drawing.Size(36, 22);
             this.pCToolStripMenuItem.Text = "PC";
+            this.pCToolStripMenuItem.Click += new System.EventHandler(this.pCToolStripMenuItem_Click);
             // 
             // integrantesToolStripMenuItem
             // 
