@@ -30,6 +30,7 @@ namespace Grupo4_semana4_formulario
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.integrantesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,6 +41,7 @@ namespace Grupo4_semana4_formulario
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.laptosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -57,6 +59,7 @@ namespace Grupo4_semana4_formulario
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.laptosToolStripMenuItem,
+            this.pCToolStripMenuItem,
             this.integrantesToolStripMenuItem,
             this.ayudaToolStripMenuItem,
             this.acercaDeToolStripMenuItem,
@@ -107,9 +110,11 @@ namespace Grupo4_semana4_formulario
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(0, 97);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 97);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1370, 499);
+            this.pictureBox1.Size = new System.Drawing.Size(1346, 497);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
@@ -119,13 +124,20 @@ namespace Grupo4_semana4_formulario
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1346, 52);
             this.label1.TabIndex = 5;
-            this.label1.Text = "label1";
+            this.label1.Text = "Venta de Computadoras LaptoyCompudoras de Escritorio";
             // 
             // laptosToolStripMenuItem
             // 
             this.laptosToolStripMenuItem.Name = "laptosToolStripMenuItem";
             this.laptosToolStripMenuItem.Size = new System.Drawing.Size(109, 35);
             this.laptosToolStripMenuItem.Text = "Laptos ";
+            this.laptosToolStripMenuItem.Click += new System.EventHandler(this.laptosToolStripMenuItem_Click);
+            // 
+            // pCToolStripMenuItem
+            // 
+            this.pCToolStripMenuItem.Name = "pCToolStripMenuItem";
+            this.pCToolStripMenuItem.Size = new System.Drawing.Size(60, 35);
+            this.pCToolStripMenuItem.Text = "PC";
             // 
             // Form1
             // 
@@ -161,6 +173,7 @@ namespace Grupo4_semana4_formulario
         private System.Windows.Forms.ToolStripMenuItem laptosToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem pCToolStripMenuItem;
     }
 }
 

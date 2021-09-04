@@ -51,5 +51,10 @@ namespace Grupo4_semana4_formulario
             newMDIChild.MdiParent = this;
             newMDIChild.Show();
         }
+
+        private void laptosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
