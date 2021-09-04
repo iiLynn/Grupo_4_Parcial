@@ -59,11 +59,11 @@ namespace Grupo4_semana4_formulario
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(728, 155);
+            this.label2.Location = new System.Drawing.Point(668, 155);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 25);
+            this.label2.Size = new System.Drawing.Size(116, 25);
             this.label2.TabIndex = 1;
-            this.label2.Text = "$400";
+            this.label2.Text = "Precio $400";
             // 
             // label3
             // 
@@ -77,11 +77,11 @@ namespace Grupo4_semana4_formulario
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(728, 391);
+            this.label4.Location = new System.Drawing.Point(668, 391);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 25);
+            this.label4.Size = new System.Drawing.Size(116, 25);
             this.label4.TabIndex = 3;
-            this.label4.Text = "$300";
+            this.label4.Text = "Precio $300";
             // 
             // label5
             // 
@@ -95,11 +95,11 @@ namespace Grupo4_semana4_formulario
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(717, 587);
+            this.label6.Location = new System.Drawing.Point(657, 602);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 25);
+            this.label6.Size = new System.Drawing.Size(127, 25);
             this.label6.TabIndex = 5;
-            this.label6.Text = "$1500";
+            this.label6.Text = "Precio $1500";
             // 
             // pictureBox1
             // 
