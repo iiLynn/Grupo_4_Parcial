@@ -40,7 +40,9 @@ namespace Grupo4_semana4_formulario
 
         private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Form2 newMDIChild = new Form2();
+            newMDIChild.MdiParent = this;
+            newMDIChild.Show();
         }
 
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
