@@ -32,14 +32,16 @@ namespace Grupo4_semana4_formulario
             this.components = new System.ComponentModel.Container();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.qToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.superMercadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.integrantesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.laptosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -54,7 +56,7 @@ namespace Grupo4_semana4_formulario
             this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.qToolStripMenuItem,
+            this.laptosToolStripMenuItem,
             this.integrantesToolStripMenuItem,
             this.ayudaToolStripMenuItem,
             this.acercaDeToolStripMenuItem,
@@ -65,20 +67,6 @@ namespace Grupo4_semana4_formulario
             this.menuStrip1.Size = new System.Drawing.Size(1370, 37);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // qToolStripMenuItem
-            // 
-            this.qToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.superMercadoToolStripMenuItem});
-            this.qToolStripMenuItem.Name = "qToolStripMenuItem";
-            this.qToolStripMenuItem.Size = new System.Drawing.Size(161, 35);
-            this.qToolStripMenuItem.Text = "Formularios";
-            // 
-            // superMercadoToolStripMenuItem
-            // 
-            this.superMercadoToolStripMenuItem.Name = "superMercadoToolStripMenuItem";
-            this.superMercadoToolStripMenuItem.Size = new System.Drawing.Size(301, 40);
-            this.superMercadoToolStripMenuItem.Text = "Super Mercado ";
             // 
             // integrantesToolStripMenuItem
             // 
@@ -117,19 +105,45 @@ namespace Grupo4_semana4_formulario
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(0, 97);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1370, 499);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(12, 42);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1346, 52);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "label1";
+            // 
+            // laptosToolStripMenuItem
+            // 
+            this.laptosToolStripMenuItem.Name = "laptosToolStripMenuItem";
+            this.laptosToolStripMenuItem.Size = new System.Drawing.Size(109, 35);
+            this.laptosToolStripMenuItem.Text = "Laptos ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 527);
+            this.ClientSize = new System.Drawing.Size(1370, 597);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Principal ";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -139,13 +153,14 @@ namespace Grupo4_semana4_formulario
 
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem qToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem integrantesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ImageList imageList1;
-        private System.Windows.Forms.ToolStripMenuItem superMercadoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem laptosToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
 

@@ -58,11 +58,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="centro.cs">
+    <Compile Include="Lapto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="centro.Designer.cs">
-      <DependentUpon>centro.cs</DependentUpon>
+    <Compile Include="Lapto.Designer.cs">
+      <DependentUpon>Lapto.cs</DependentUpon>
     </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
@@ -75,8 +75,8 @@
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="centro.resx">
-      <DependentUpon>centro.cs</DependentUpon>
+    <EmbeddedResource Include="Lapto.resx">
+      <DependentUpon>Lapto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
