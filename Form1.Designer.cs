@@ -53,6 +53,7 @@ namespace Grupo4_semana4_formulario
             // 
             // menuStrip1
             // 
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.qToolStripMenuItem,
@@ -63,7 +64,7 @@ namespace Grupo4_semana4_formulario
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(1234, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1370, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -72,25 +73,25 @@ namespace Grupo4_semana4_formulario
             this.qToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.superMercadoToolStripMenuItem});
             this.qToolStripMenuItem.Name = "qToolStripMenuItem";
-            this.qToolStripMenuItem.Size = new System.Drawing.Size(82, 22);
+            this.qToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
             this.qToolStripMenuItem.Text = "Formularios";
             // 
             // superMercadoToolStripMenuItem
             // 
             this.superMercadoToolStripMenuItem.Name = "superMercadoToolStripMenuItem";
-            this.superMercadoToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.superMercadoToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.superMercadoToolStripMenuItem.Text = "Super Mercado ";
             // 
             // integrantesToolStripMenuItem
             // 
             this.integrantesToolStripMenuItem.Name = "integrantesToolStripMenuItem";
-            this.integrantesToolStripMenuItem.Size = new System.Drawing.Size(81, 22);
+            this.integrantesToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
             this.integrantesToolStripMenuItem.Text = "Integrantes ";
             // 
             // ayudaToolStripMenuItem
             // 
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 22);
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(59, 22);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
             // 
@@ -98,14 +99,17 @@ namespace Grupo4_semana4_formulario
             // 
             this.acercaDeToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(83, 22);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(95, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de ...";
             this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
+            this.salirToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
+            this.salirToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.salirToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText;
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(44, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(51, 22);
             this.salirToolStripMenuItem.Text = "Salir ";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -118,20 +122,20 @@ namespace Grupo4_semana4_formulario
             // button1
             // 
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(19, 37);
+            this.button1.Location = new System.Drawing.Point(24, 46);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(67, 53);
+            this.button1.Size = new System.Drawing.Size(89, 80);
             this.button1.TabIndex = 3;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(121, 37);
+            this.button2.Location = new System.Drawing.Point(161, 46);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(61, 53);
+            this.button2.Size = new System.Drawing.Size(101, 80);
             this.button2.TabIndex = 4;
             this.button2.Text = "Super Mercado";
             this.button2.UseVisualStyleBackColor = true;
@@ -139,17 +143,18 @@ namespace Grupo4_semana4_formulario
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1234, 647);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
+            this.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
-            this.Text = "2";
+            this.Text = "Menu Principal ";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
