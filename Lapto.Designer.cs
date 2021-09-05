@@ -59,7 +59,7 @@ namespace Grupo4_semana4_formulario
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(668, 155);
+            this.label2.Location = new System.Drawing.Point(506, 155);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(116, 25);
             this.label2.TabIndex = 1;
@@ -77,7 +77,7 @@ namespace Grupo4_semana4_formulario
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(668, 391);
+            this.label4.Location = new System.Drawing.Point(506, 391);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(116, 25);
             this.label4.TabIndex = 3;
@@ -95,7 +95,7 @@ namespace Grupo4_semana4_formulario
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(657, 602);
+            this.label6.Location = new System.Drawing.Point(506, 588);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(127, 25);
             this.label6.TabIndex = 5;
@@ -124,7 +124,7 @@ namespace Grupo4_semana4_formulario
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(190, 544);
+            this.pictureBox3.Location = new System.Drawing.Point(212, 544);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(272, 171);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -133,30 +133,33 @@ namespace Grupo4_semana4_formulario
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(805, 140);
+            this.button1.Location = new System.Drawing.Point(649, 140);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 54);
             this.button1.TabIndex = 9;
             this.button1.Text = "Comprar ";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(805, 376);
+            this.button2.Location = new System.Drawing.Point(649, 376);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(121, 54);
             this.button2.TabIndex = 10;
             this.button2.Text = "Comprar ";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(801, 587);
+            this.button3.Location = new System.Drawing.Point(649, 573);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(121, 54);
             this.button3.TabIndex = 11;
             this.button3.Text = "Comprar ";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Lapto
             // 
