@@ -43,10 +43,10 @@ namespace Grupo4_semana4_formulario
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -136,9 +136,9 @@ namespace Grupo4_semana4_formulario
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(103, 471);
+            this.pictureBox3.Location = new System.Drawing.Point(103, 499);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(272, 171);
+            this.pictureBox3.Size = new System.Drawing.Size(250, 143);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 8;
             this.pictureBox3.TabStop = false;
@@ -173,44 +173,36 @@ namespace Grupo4_semana4_formulario
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(393, 48);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(229, 156);
-            this.textBox1.TabIndex = 12;
-            this.textBox1.Text = "Marca: Microsoft \r\nProcesador Intel Core i5\r\nMemoria RAM: 8GB\r\nBatería. 5800 mAh\r" +
-    "\n";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // textBox2
+            // label8
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(393, 261);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(229, 156);
-            this.textBox2.TabIndex = 14;
-            this.textBox2.Text = "Marca: Lenovo\r\nProcesador Intel Core i5\r\nMemoria RAM: 4GB\r\nBatería. 5000 mAh\r\n";
+            this.label8.Location = new System.Drawing.Point(387, 302);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(224, 111);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "Marca: Lenovo\r\nProcesador Intel Core i5\r\nMemoria RAM: 4GB\r\nBatería. 5000 mAh\r\n";
             // 
-            // textBox3
+            // label9
             // 
-            this.textBox3.BackColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(393, 486);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(229, 156);
-            this.textBox3.TabIndex = 15;
-            this.textBox3.Text = "Marca: Microsoft \r\nProcesador: Intel Core i9 \r\nMemoria RAM: 16GB\r\nBatería. 6000 m" +
-    "Ah\r\n";
+            this.label9.Location = new System.Drawing.Point(387, 511);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(246, 111);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "Marca: Apple\r\nProcesador: Intel Core i9 \r\nMemoria RAM: 16GB\r\nBatería. 6000 mAh\r\n";
+            // 
+            // label7
+            // 
+            this.label7.Location = new System.Drawing.Point(387, 77);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(224, 111);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "Marca: Microsoft \r\nProcesador Intel Core i5\r\nMemoria RAM: 8GB\r\nBatería. 5800 mAh\r" +
+    "\n";
             // 
             // Lapto
             // 
@@ -220,9 +212,9 @@ namespace Grupo4_semana4_formulario
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1029, 727);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -261,9 +253,9 @@ namespace Grupo4_semana4_formulario
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label7;
     }
 }
