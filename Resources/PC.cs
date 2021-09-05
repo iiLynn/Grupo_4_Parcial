@@ -16,5 +16,15 @@ namespace Grupo4_semana4_formulario.Resources
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Computadora_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
