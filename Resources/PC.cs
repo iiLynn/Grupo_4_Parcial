@@ -26,5 +26,25 @@ namespace Grupo4_semana4_formulario.Resources
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Su compra se ha completado", "Compra de una Computadora", MessageBoxButtons.OK);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Su compra se ha completado", "Compra de una Computadora", MessageBoxButtons.OK);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Su compra se ha completado", "Compra de una Computadora", MessageBoxButtons.OK);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
