@@ -65,5 +65,11 @@ namespace Grupo4_semana4_formulario
         {
 
         }
+
+        private void integrantesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 integrantes = new Form3();
+            _ = integrantes.ShowDialog();
+        }
     }
 }
