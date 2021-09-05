@@ -55,5 +55,10 @@ namespace Grupo4_semana4_formulario
         {
             Close();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
