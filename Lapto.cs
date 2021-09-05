@@ -40,5 +40,15 @@ namespace Grupo4_semana4_formulario
             MessageBox.Show("Su compra se ha completado", "Compra de una Laptop", MessageBoxButtons.OK);
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
