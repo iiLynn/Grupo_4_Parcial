@@ -29,6 +29,7 @@ namespace Grupo4_semana4_formulario.Resources
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Computadora));
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -62,7 +63,7 @@ namespace Grupo4_semana4_formulario.Resources
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Grupo4_semana4_formulario.Properties.Resources.MicrosoftTeams_image__2_;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(33, 67);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(110, 103);
