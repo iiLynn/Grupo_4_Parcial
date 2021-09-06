@@ -15,6 +15,8 @@ namespace Grupo4_semana4_formulario
 {
     public partial class Form2 : Form
     {
+        
+
         public Form2()
         {
             InitializeComponent();
@@ -27,28 +29,35 @@ namespace Grupo4_semana4_formulario
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            StreamReader Archivo = new StreamReader("C:\\Users\\orell\\OneDrive\\Documentos\\AYUDA.txt");
+            StreamReader Archivo = new StreamReader("C:\\Users\\Luis2\\OneDrive\\Documentos\\CICLO 2\\Parcial_Grupo4\\ayuda.txt");
 
-            string linea = "";
+            string linea_mostrar = "";
 
             ArrayList contenido = new ArrayList();
 
-            while (linea != null);
+            
             {
-                linea = Archivo.ReadLine();
-                if (linea != null)
-                contenido.Add(linea);
-                textBox1.Text = linea;
+                
+                
+                linea_mostrar = Archivo.ReadLine();
+                if (linea_mostrar != null)
+                contenido.Add(linea_mostrar);
+                textBox1.Text = linea_mostrar;
             }
             Archivo.Close();
 
             textBox1.Text = "";
 
-            foreach (String linea_mostrar in contenido);
             {
-                string linea_mostrar = null;
-                textBox1.Text = textBox1.Text + linea_mostrar + "\n";
+                foreach (object v in contenido) ;
+                
+                textBox1.Text = textBox1.Text+linea_mostrar + "\n";
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

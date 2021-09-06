@@ -43,6 +43,7 @@ namespace Grupo4_semana4_formulario
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(400, 282);
             this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
