@@ -62,6 +62,7 @@ namespace Grupo4_semana4_formulario
             this.label1.Size = new System.Drawing.Size(71, 18);
             this.label1.TabIndex = 1;
             this.label1.Text = "Usuario ";
+            this.label1.UseWaitCursor = true;
             // 
             // label2
             // 
@@ -72,6 +73,7 @@ namespace Grupo4_semana4_formulario
             this.label2.Size = new System.Drawing.Size(95, 18);
             this.label2.TabIndex = 2;
             this.label2.Text = "Contraseña ";
+            this.label2.UseWaitCursor = true;
             // 
             // textBox1
             // 
@@ -79,6 +81,7 @@ namespace Grupo4_semana4_formulario
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(141, 20);
             this.textBox1.TabIndex = 3;
+            this.textBox1.UseWaitCursor = true;
             // 
             // textBox2
             // 
@@ -86,26 +89,29 @@ namespace Grupo4_semana4_formulario
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(141, 20);
             this.textBox2.TabIndex = 4;
+            this.textBox2.UseWaitCursor = true;
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("New Comic Title Expanded Italic", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(281, 184);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(143, 32);
             this.button1.TabIndex = 5;
             this.button1.Text = "ACCESO CON ACCESS";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseWaitCursor = true;
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("New Comic Title Expanded Italic", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(449, 184);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(135, 32);
             this.button2.TabIndex = 6;
             this.button2.Text = "ACCESO CON SQL";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseWaitCursor = true;
             // 
             // login
             // 
@@ -123,6 +129,7 @@ namespace Grupo4_semana4_formulario
             this.Name = "login";
             this.Text = "login";
             this.UseWaitCursor = true;
+            this.Load += new System.EventHandler(this.login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

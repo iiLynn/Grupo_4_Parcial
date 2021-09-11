@@ -16,5 +16,10 @@ namespace Grupo4_semana4_formulario
         {
             InitializeComponent();
         }
+
+        private void login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
