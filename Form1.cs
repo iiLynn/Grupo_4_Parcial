@@ -8,6 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
+using System.Data.OleDb;
+
 
 namespace Grupo4_semana4_formulario
 {
@@ -71,6 +74,11 @@ namespace Grupo4_semana4_formulario
             Form3 newMDIChild = new Form3();
             newMDIChild.MdiParent = this;
             newMDIChild.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

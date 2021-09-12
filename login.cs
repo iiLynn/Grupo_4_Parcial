@@ -8,11 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Data.OleDb;
 
 namespace Grupo4_semana4_formulario
 {
     public partial class login : Form
     {
+        OleDbConnection conex = new OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0; Data Source = C:\\Users\\orell\\OneDrive\\Escritorio\\login.accdb");
         public login()
         {
             InitializeComponent();
@@ -21,7 +23,16 @@ namespace Grupo4_semana4_formulario
         SqlConnection conexion = new SqlConnection("server=DESKTOP-PMRS7B8\\SQL4;DataBase=master; integrated security=true");
         private void login_Load(object sender, EventArgs e)
         {
+            try
+            {
+                conex.Open();
+                MessageBox.Show("Conectado");
+            }
+            catch (Exception a)
 
+            {
+                MessageBox.Show("error por: " + a.ToString());
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -44,6 +55,28 @@ namespace Grupo4_semana4_formulario
                 MessageBox.Show("Usuario/contraseña incorrecta");
             }
             conexion.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string consulto = "select contraseña,usuario from login where contraseña = ´" + textBox2.Text + "´ and usuario = ´" + textBox1.Text + "´;";
+            OleDbCommand comande = new OleDbCommand (consulto, conex);
+            OleDbDataReader leeDb;
+            leeDb = comande.ExecuteReader();
+            Boolean existereng = leeDb.HasRows;
+            if (existereng)
+            {
+                MessageBox.Show("vienbenido/a al sistema " + textBox1.Text);
+                Form1 abrir = new Form1();
+                this.Hide();
+                abrir.Show();
+            }
+            else
+            {
+                MessageBox.Show("ususario o contraseña incorrecto trate de nuevo");
+                return;
+            }
+            conex.Close();
         }
     }
 }
