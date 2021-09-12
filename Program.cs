@@ -16,7 +16,7 @@ namespace Grupo4_semana4_formulario
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new login());
         }
     }
 }
